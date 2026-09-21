@@ -1,0 +1,7 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "ESP32_stuff_forme") (type "KiCad") (uri "${KIPRJMOD}/ESP32_stuff_forme.kicad_sym") (options "") (descr ""))
+	(lib (name "Shivam_project_lib") (type "KiCad") (uri "${KIPRJMOD}/Shivam_project_lib.kicad_sym") (options "") (descr ""))
+	(lib (name "ESP32_tunable_filter") (type "KiCad") (uri "${KIPRJMOD}/ESP32_tunable_filter.kicad_sym") (options "") (descr ""))
+	(lib (name "ESP32_NodeMCU_Shivam") (type "KiCad") (uri "${KIPRJMOD}/ESP32_NodeMCU_Shivam.kicad_sym") (options "") (descr ""))
+)
