@@ -1232,6 +1232,12 @@
 		(uuid "320a56a8-77ea-4d12-bbac-ae70e14c15c5")
 	)
 	(junction
+		(at 156.21 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3e880a2b-6c1b-4a17-90dd-bec691e204fd")
+	)
+	(junction
 		(at 181.61 143.51)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1471,6 +1477,16 @@
 	)
 	(wire
 		(pts
+			(xy 182.88 82.55) (xy 156.21 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e14d816-2a67-4ea2-af86-2e7afac614b5")
+	)
+	(wire
+		(pts
 			(xy 142.24 105.41) (xy 142.24 107.95)
 		)
 		(stroke
@@ -1548,6 +1564,16 @@
 			(type default)
 		)
 		(uuid "74fe9164-1cbd-4401-84d0-a091d2c8e6e0")
+	)
+	(wire
+		(pts
+			(xy 182.88 80.01) (xy 176.53 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "785f5a4c-cd2b-4b05-b0d2-7a007ddb36e4")
 	)
 	(wire
 		(pts
@@ -1811,6 +1837,16 @@
 	)
 	(wire
 		(pts
+			(xy 156.21 82.55) (xy 156.21 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1a963b2-2c08-4809-aaf2-fcff813cfae3")
+	)
+	(wire
+		(pts
 			(xy 139.7 52.07) (xy 182.88 52.07)
 		)
 		(stroke
@@ -1868,6 +1904,16 @@
 			(justify left bottom)
 		)
 		(uuid "00ba2e77-76ef-42aa-bbef-5fd02f9086fe")
+	)
+	(label "3.3V"
+		(at 176.53 80.01 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "064a1083-b8a6-4622-a788-88e666045860")
 	)
 	(label "3.3V"
 		(at 210.82 115.57 0)
@@ -3432,6 +3478,26 @@
 		(pin "VMOT" input
 			(at 182.88 49.53 180)
 			(uuid "c7dd62c9-a172-4eb1-9564-bb2a6aef74b5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "POT+" bidirectional
+			(at 182.88 80.01 180)
+			(uuid "92447ac5-cd4a-4766-b15b-340d8f15ecb2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "POT-" bidirectional
+			(at 182.88 82.55 180)
+			(uuid "e4b53b87-69dc-4178-afba-3b87e2d32373")
 			(effects
 				(font
 					(size 1.27 1.27)
